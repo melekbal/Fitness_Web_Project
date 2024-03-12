@@ -39,6 +39,7 @@ def login_view(request):
         password = body.get('password')
         
         print(body.get('email'))
+        print("hello")
 
         print('User Type:', user_type)
         print('email:', email)
